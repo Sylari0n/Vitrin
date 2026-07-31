@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Vitrin.Api/Vitrin.Api.csproj" />
+    <Project Path="src/Vitrin.Application/Vitrin.Application.csproj" />
+    <Project Path="src/Vitrin.Domain/Vitrin.Domain.csproj" />
+    <Project Path="src/Vitrin.Infrastructure/Vitrin.Infrastructure.csproj" />
+    <Project Path="src/Vitrin.Worker/Vitrin.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Vitrin.Api.IntegrationTests/Vitrin.Api.IntegrationTests.csproj" />
+    <Project Path="tests/Vitrin.Application.Tests/Vitrin.Application.Tests.csproj" />
+    <Project Path="tests/Vitrin.Domain.Tests/Vitrin.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

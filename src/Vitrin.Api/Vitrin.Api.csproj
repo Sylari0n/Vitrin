@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>  <UserSecretsId>61f766e8-bea2-4636-b973-3db398a6e157</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vitrin.Infrastructure\Vitrin.Infrastructure.csproj" />
+    <ProjectReference Include="..\Vitrin.Application\Vitrin.Application.csproj" />
+  </ItemGroup>
+
+</Project>
